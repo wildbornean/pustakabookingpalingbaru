@@ -85,6 +85,7 @@ class Pinjam extends CI_Controller
         $this->session->set_flashdata('pesan', '<div class="alert alert-message alert-success" role="alert">Data Peminjaman Berhasil Disimpan</div>');
         redirect(base_url() . 'pinjam');
     }
+    
 
     public function ubahStatus()
     {
@@ -103,6 +104,8 @@ class Pinjam extends CI_Controller
         $this->session->set_flashdata('pesan', '<div class="laert alert-message alert-success" role="alert"></div>');
         redirect(base_url('pinjam'));
     }
+    
 
 }
+
  
